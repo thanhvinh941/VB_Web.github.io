@@ -1,0 +1,75 @@
+header{
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+}
+
+body{
+    background-color: #fff;
+}
+
+.navbar{
+   padding-bottom: 0 !important;
+   padding-top: 0 !important; 
+}
+ul span{
+    line-height: 40px;
+}
+.form-inline{
+    margin-right: 20px ;
+}
+.nav-link{
+    padding: 0 .5rem !important;
+    line-height: 50px;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+.hover-nav{
+   min-width: 120px; 
+   text-align: center;
+}
+
+.hover-nav :hover{
+    background-color: var(--bs-teal);
+}
+.hover-nav:hover > .nav-link{
+    color: #fff !important;
+}
+.cart{
+    color: var(--bs-yellow) !important;
+}
+.account{
+    color: var(--bs-cyan) !important;
+}
+.cart:hover{
+    color: var(--bs-orange) !important;
+}
+.account:hover{
+    color: var(--bs-primary) !important;
+}
+.nav-link i{
+    font-size: 20px ;
+}
+
+.account__active{
+    display: block !important;
+}
+/* ================== */
+.account-nav{
+    background: #59C173;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.conten_divide ::after{
+    content: '/';
+    padding-left:4px;
+}
+.form{
+    min-height: 100vh;
+    background-image:url("/ASSETS/IMG/backgroud.jpg") ;
+    background-size: cover;
+}
+
+footer{
+    background-color: var(--bs-dark);
+}

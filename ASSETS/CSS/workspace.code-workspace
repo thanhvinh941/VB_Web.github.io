@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\DemoCK"
+		},
+		{
+			"path": "..\\..\\..\\form vali"
+		},
+		{
+			"path": "..\\..\\..\\testCK"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\Project Download\\web_ban_giay_2"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\Project Download\\VB_WEB"
+		},
+		{
+			"path": "C:\\Users\\truon\\OneDrive\\Máy tính\\deon"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\Thư mục mới"
+		},
+		{
+			"path": "C:\\Users\\truon\\OneDrive\\Máy tính\\letandang_19526881"
+		},
+		{
+			"path": "C:\\Users\\truon\\OneDrive\\Máy tính\\BaiTapLon"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BaiTapLonWeb"
+	}
+}

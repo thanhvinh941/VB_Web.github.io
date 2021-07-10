@@ -1,0 +1,10 @@
+.side-new p{
+    font-weight: 500;
+    padding-left: 8px;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.list-group-item{
+    padding: 5px 0 !important;
+}

@@ -1,0 +1,220 @@
+font-face {
+    font-family: 'Samsung Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sans Regular'), url('/assets/Font/SamsungSans-Regular.woff') format('woff');
+}
+    
+
+@font-face {
+    font-family: 'Samsung Sans Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sans Thin'), url('/assets/Font/SamsungSans-Thin.woff') format('woff');
+}
+    
+
+@font-face {
+    font-family: 'Samsung Sans Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sans Light'), url('/assets/Font/SamsungSans-Light.woff') format('woff');
+}
+    
+
+@font-face {
+    font-family: 'Samsung Sans Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sans Medium'), url('/assets/Font/SamsungSans-Medium.woff') format('woff');
+}
+    
+
+@font-face {
+    font-family: 'Samsung Sans Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sans Bold'), url('/assets/Font/SamsungSans-Bold.woff') format('woff');
+}
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: var(--bs-dark);
+}
+
+.text-tranding{
+    text-decoration:underline var(--bs-teal);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.btn{
+    background-color: var(--bs-teal) !important;
+    color: var(--bs-white) !important;
+}
+.fade :hover{
+    animation:fade ease-out .3s;
+    transform: translateY(-5px);
+}
+span{
+    font-family: 'Samsung Sans Thin';    font-family: 'Samsung Sans Thin';
+    color: #777;
+}
+.translate-time{
+    transition:all .5s;
+}
+
+.translate-l:hover {
+    padding-left: 10px;
+    color: var(--bs-info) !important;
+}
+
+.translate-l:hover a,
+.translate-l:hover span {
+    padding-left: 10px;
+    color: var(--bs-info) !important;
+}
+.translate-l:hover .side-new{
+    padding-left: 10px;
+}
+.translate-l:hover .side-new p{
+    color: var(--bs-cyan) !important;
+    text-decoration: underline !important;
+}
+.translate-text:hover p{
+    color: var(--bs-info) !important;
+}
+
+
+@media (max-width:540px){
+    .grid__colum{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (min-width: 	700px) {
+    .grid__colum{
+        grid-template-columns: auto auto auto; 
+    }
+}
+  
+@media (min-width: 900px) {
+    .grid__colum{
+        grid-template-columns: auto auto auto auto; 
+    }
+}
+@media (min-width: 1152px) {
+    .grid__colum{
+        grid-template-columns: auto auto auto auto auto; 
+    }
+}
+
+@keyframes fade {
+    from{
+        opacity: .4;
+    }to{
+        opacity: 1;
+    }
+}
+
+header{
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+}
+
+body{
+    background-color: #fff;
+}
+
+.navbar{
+   padding-bottom: 0 !important;
+   padding-top: 0 !important; 
+}
+ul span{
+    line-height: 40px;
+}
+.form-inline{
+    margin-right: 20px ;
+}
+.nav-link{
+    padding: 0 .5rem !important;
+    line-height: 50px;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:hover  > .list-group{
+    display: block !important;
+}
+.hover-nav{
+   min-width: 120px; 
+   text-align: center;
+}
+.btn-account:hover{
+    background-color: var(--bs-teal) !important;
+}
+.btn-account:hover a{
+    color: var(--bs-white) !important;
+}
+.hover-nav :hover{
+    background-color: var(--bs-teal);
+}
+.hover-nav:hover > .nav-link{
+    color: #fff !important;
+}
+.cart{
+    color: var(--bs-yellow) !important;
+}
+.account{
+    color: var(--bs-cyan) !important;
+}
+.cart:hover{
+    color: var(--bs-orange) !important;
+}
+.account:hover{
+    color: var(--bs-primary) !important;
+}
+.nav-link i{
+    font-size: 20px ;
+}
+.cart-number{
+    text-align: center;
+    line-height: 16px !important;
+    width: 16px;
+    height: 16px;
+    background-color: var(--bs-danger);
+    color: var(--bs-light);
+    top: 2px;
+    right: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border-radius: 8px;
+}
